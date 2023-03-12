@@ -1,0 +1,33 @@
+.PreNav{
+
+        background: #111111;
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+        color: #ffffff;
+     
+}
+
+.PreNav>div{
+    padding: 0vmax 4vmax;
+    display: flex;
+    align-items: center;
+}
+.PreNav>div>span{
+    font-size: 0.8vmax;
+    font-weight: 100;
+    color: #6b6a6a;
+}
+.PreNav>div>a{
+    font-size: 1vmax;
+    font-weight: 300;
+    color: #a8a6a6;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1vmax;
+
+}
+.PreNav>div>a:hover{
+    color: #ffffff;
+    font-weight: 500;
+ 
+}

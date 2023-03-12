@@ -1,0 +1,62 @@
+.HotAccessories{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.Images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 71%;
+    height: 600px;
+
+}
+.card{
+    width: 31%;
+    margin: 8px 8px;
+    height: 280px;
+    transition: all 0.6s;
+}
+.card:hover{
+    transition: all 0.5s;
+    transform: translateY(-0.4vmax);
+    box-shadow: 6px 6px 16px rgb(107, 107, 107);
+}
+.card>img{
+    padding: 5px;
+    width: 62%;
+    margin: 0px auto;
+
+}
+.coverImage{
+    width: 27%;
+
+}
+.coverImage>img{
+    transition: all 0.5s;
+    width: 85%;
+    height: 570px;
+    margin: 0px 42px;
+
+}
+.coverImage>img:hover{
+    transition: all 0.5s;
+    transform: translateY(-0.4vmax);
+    box-shadow: 6px 6px 16px rgb(107, 107, 107);
+
+}
+.name{
+    color: #666666;
+    font-size: 1.5vmax;
+    margin: 5px auto;
+    padding: 5px;
+}
+.price{
+    color: #212121;
+    font-size: 1.6vmax;
+    margin: 0px auto;
+    padding: 5px;
+    font-weight: 400;
+    color: orangered;
+}

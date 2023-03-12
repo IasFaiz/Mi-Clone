@@ -1,0 +1,36 @@
+.productReviews{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin: 0.5vmax auto;
+    height: 400px;
+}
+.Item{
+    width: 45%;
+    height: 320px;
+    background-color: #fff;
+    margin: 0 5px;
+    transition: all 0.6s;
+
+}
+.Item:hover{
+    transition: all 0.6s;
+    transform: translateY(-0.4vmax);
+    box-shadow: 6px 6px 16px rgb(107, 107, 107);
+}
+.Item>img{
+    width: 100%;
+   
+}
+.Item>h3{
+  color: rgb(85, 85, 85);
+  font-size: 1.8vmax;
+  margin: 10px 10px;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,24 @@
+.carousel{
+    width: 100%;
+    height: 360px;
+    background-size: 100%;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.cname{
+    color: #ffffff;
+    font-size: 2.2vmax;
+    font-weight: 500;
+}
+.cdesc{
+    color: #fcfcfc;
+    font-size: 1.4vmax;
+}
+.csource{
+    color: #fcfcfc;
+    font-size: 1.5vmax;
+    font-weight: 400;
+}

@@ -1,0 +1,58 @@
+.videoCardList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+}
+.videoCard{
+    width:30%;
+    height: 280px;
+    margin: 0 5px;
+    background-repeat: no-repeat;
+    background-size: 320px 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.7s;
+
+}
+.videoCard:hover div{
+    transition: all 0.7s;
+    background: rgb(255,255,255,0.6)
+
+}
+.videoCard:hover p{
+    transition: all 0.7s;
+    font-weight:500 ;
+}
+.videoCard:hover {
+    transition: all 0.7s;
+    font-weight:500 ;
+    height: 280px;
+    transform: translatey(-2px);
+
+}
+.playButton{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.5s;
+
+    background: rgb(255,255,255,0.1)
+    
+}
+.playButton>a{
+    margin: auto;
+    text-decoration: none;
+    color: #fff;
+}
+.videoCard>p{
+    margin: 20px;
+    color: #fff;
+    font-size: 1.5vmax;
+}
+

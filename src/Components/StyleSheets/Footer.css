@@ -1,0 +1,151 @@
+.preFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 110px;
+}
+.preFooterItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vmax;
+    color: #757575;
+
+    
+}
+.preFooterItem:hover{
+    
+    color: #212121;
+}
+.preFooterItem:hover p{
+    
+    color: #212121;
+}
+.preFooterItem P{
+    font-size: 1.4vmax;
+    margin: 1vmax;
+    color: #757575;
+}
+
+.preFooter2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1 p b{
+    font-size: 1.3vmax;
+}
+.div1 p {
+    font-size: 1vmax;
+}
+.div2 div input{
+    width: 240px;
+    height: 25px;
+    font-size: 1vmax;
+}
+.div2 p{
+    font-size: 1vmax;
+}
+.div3 p{
+    font-size: 1.1vmax;
+}
+.div3 p b{
+    font-size: 1.3vmax;
+}
+.div4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.1vmax;
+    color: #757575;
+}
+.div4 p{
+    margin: 1.1vmax;
+
+}
+.div4 p:hover{
+color: #3b3b3b;
+}
+.preFooter2Item{
+    margin: 0.8vmax 2.4vmax;
+    padding: 1vmax;
+}
+
+
+
+
+.footerEnd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: #252525;
+    padding: 0 1vmax;
+    padding: 6vmax 5vmax;
+}
+.footerEnd div{
+   display: flex;
+   flex-direction: column;
+   margin: 1vmax;
+
+ 
+}
+.footerEnd div p{
+ color: #dfdfdf;
+ font-size: 1.4vmax;
+}
+.footerEnd div a{
+ color: #b1b1b1;
+ font-size: 1.1vmax;
+ text-decoration: none;
+ cursor: pointer;
+ padding: 0.4vmax;
+}
+.footerEnd div a:hover{
+ color: #f1f1f1;
+ 
+}
+
+.chatItem button{
+    transition: all 0.5s;
+
+    border:1px solid white;
+    background: transparent;
+    font-size: 1vmax;
+    color: #fff;
+    width: 11vmax;
+    height: 3vmax;
+    margin: 1vmax 0vmax;
+}
+.chatItem button:hover{
+    transition: all 0.5s;
+    color: #141414;
+   background-color: #fff;
+}
+.chatItem{
+    color: #cecece;
+    font-size: 9px;
+    width: 130px;
+    padding: 2vmax 0vmax;
+}
+.copyright{
+    /* border: 1px solid white; */
+    background-color: #252525;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.borderLine{
+    background-color: #525252;
+   height: 0.1px;
+   width: 90%;
+
+}   
+
+.copyrightText{
+    color: #c2c2c2;
+    margin: 2vmax 1vmax;
+    font-size: 1.1vmax;
+    opacity: 0.8;
+}

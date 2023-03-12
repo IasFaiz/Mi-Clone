@@ -1,0 +1,21 @@
+.Heading{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+    
+    
+}
+.Heading>div{
+    background-color: rgb(175, 175, 175);
+    height: 1px;
+    width: 30vw;
+   
+}
+.Heading>p{
+    color: #737373;
+    margin: 2%;
+    font-size: 2vmax;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

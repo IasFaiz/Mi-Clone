@@ -1,0 +1,27 @@
+.offer{
+    display: flex;
+    justify-content: center;
+    margin: 0 0.5vmax;
+    transition: all 0.6s;
+    width: 32%;
+
+}
+.offer>a>img{
+    width: 100%;
+
+}
+.offer:hover{
+    transition: all 0.6s;
+    transform: translateY(-1px);
+    box-shadow: 5px 5px 18px #212121;
+    margin: 0 0.5vmax;
+
+
+}
+.offers{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    width: 100%;
+
+}
