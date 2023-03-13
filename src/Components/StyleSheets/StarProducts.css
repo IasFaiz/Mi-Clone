@@ -56,8 +56,11 @@
 }
 .rightStarProduct>a>img{
     /* border: 2px solid red; */
-    width: 96%;
     transition: all 0.7s;
+    width: 96%;
+    height: 250px;
+    margin: 3px 0px;
+
 
 
 
@@ -66,21 +69,23 @@
     width: 48%;
       transition: all 0.7s;
    box-shadow: 5px 5px 15px rgb(121, 121, 121);
-   translate: 0px -2px;
+   transform: translateY(-2px);
 
 }
 .rightStarProduct1>:nth-child(2)>img:hover{
     width: 48%;
       transition: all 0.7s;
    box-shadow: 5px 5px 15px rgb(121, 121, 121);
-   translate: 0px -2px;
+   transform: translateY(-2px);
 
 }
 .rightStarProduct>a>img:hover{
     /* border: 2px solid red; */
     width: 96%;
+    height: 250px;
+    margin: 3px 0px;
       transition: all 0.7s;
    box-shadow: 5px 5px 15px rgb(121, 121, 121);
-   translate: 0px -1px;
+   transform: translateY(-2px);
 
 }
