@@ -6,7 +6,7 @@ import Heading from "./Heading";
 import "./StyleSheets/Slider.css";
 export default function Slider({ start, end }) {
   return (
-    <div>
+    <div className="slider">
       {start && (
         <Carousel fade>
           {start.map((e, index) => {
@@ -20,7 +20,6 @@ export default function Slider({ start, end }) {
       )}
       {end && (
         <div>
-          <Heading text="IN THE PRESS" />
           <Carousel fade>
             {end.map((e, index) => {
               return (

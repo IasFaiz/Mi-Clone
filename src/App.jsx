@@ -86,6 +86,7 @@ function App() {
       </Routes>
       <ProductReviews productReviews={productReviews} />
       <Video videos={videos} />
+      <Heading text="IN THE PRESS" />
       <Slider end={banner.end} start={null} />
       <Footer footer={footer} />
     </Router>
