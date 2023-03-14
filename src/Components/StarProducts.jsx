@@ -14,16 +14,20 @@ export default function StarProducts({ starProduct }) {
         </div>
         <div className=" rightStarProduct">
           <div className="rightStarProduct1">
-            <a href={starProduct[1].url}>
-              <img src={starProduct[1].image} alt="image2" />
-            </a>
-            <a href={starProduct[2].url}>
-              <img src={starProduct[2].image} alt="image3" />
-            </a>
+            <div className="rightStarProduct1up">
+              <a href={starProduct[1].url}>
+                <img src={starProduct[1].image} alt="image2" />
+              </a>
+              <a href={starProduct[2].url}>
+                <img src={starProduct[2].image} alt="image3" />
+              </a>
+            </div>
+            <div className="rightStarProduct1down">
+              <a href={starProduct[3].url}>
+                <img src={starProduct[3].image} alt="image4" />
+              </a>
+            </div>
           </div>
-          <a href={starProduct[3].url}>
-            <img src={starProduct[3].image} alt="image4" />
-          </a>
         </div>
       </div>
     </div>

@@ -8,6 +8,7 @@
 }
 
 .leftStarProduct{
+
     display: flex;
     flex-wrap: wrap;
     max-width: 46%;
@@ -27,6 +28,7 @@
 }
 
 .rightStarProduct{
+    height: 482px;
     width: 49%;
     display:flex;
     flex-wrap: wrap;
@@ -37,9 +39,50 @@
 .rightStarProduct1{
     width: 100%;
     height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
     /* display: flex; */
     /* justify-content:space-around;
     align-items: center; */
+}
+.rightStarProduct1up{
+    display: flex;
+    height: 240px;
+    width: 100%;
+
+}
+.rightStarProduct1up a img{
+    width: 100%;
+    height: 235px;  
+    margin: 0px;
+    transition: all 0.7s;
+
+
+}
+.rightStarProduct1up a img:hover{
+    
+    transition: all 0.7s;
+    box-shadow: 5px 5px 15px rgb(121, 121, 121);
+
+
+}
+.rightStarProduct1down a img{
+    width: 99%;
+    height: 239px;
+    margin: 2px 0px;
+    transition: all 0.7s;
+
+}
+.rightStarProduct1down a img:hover{
+    transition: all 0.7s;
+   box-shadow: 5px 5px 15px rgb(121, 121, 121);
+}
+.rightStarProduct1down{
+    display: flex;
+    height: 240px;
+    width: 100%;
 }
 
 .rightStarProduct1>:nth-child(1)>img{
