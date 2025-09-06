@@ -29,7 +29,7 @@ function App() {
       <NavBar />
       <Slider start={banner.start} end={null} />
       <Offers offer={offer} />
-      <Heading text="STAR PRODUCTS" />
+      <Heading text="STAR PRODUCTSS" />
       <StarProducts starProduct={starProduct} />
       <HotAccessoriesMenu />
       <Routes>
